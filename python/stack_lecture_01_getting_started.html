@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Notebook</title>
+
+<!-- Custom stylesheet, it must be in the same directory as the html file -->
+<link rel="stylesheet" href="css/ipython.css">
+<link rel="stylesheet" href="css/stack.css">
+<script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+</head><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="introduction-to-python">Introduction to Python</h1>
+<p><img src="img/monty-python.png"></p>
+<blockquote>
+<p>
+Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to humans what we want the computer to do.
+</p> <p>
+Donald E. Knuth, Literate Programming, 1984
+</p>
+</blockquote>
+
+
+
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="what-is-python">What is Python?</h2>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="http://www.python.org/">Python</a> is a modern, general-purpose, object-oriented, programming language.</p>
+<ul>
+<li>Simple, clean syntax</li>
+<li>Easy to learn</li>
+<li>Interpreted</li>
+<li>Dynamically typed</li>
+<li>Runs everywhere: Linux, Mac, and Windows</li>
+<li><a href="http://www.fsf.org/">Free</a>, as in beer and speach</li>
+<li>Expressive: do more with fewer lines of code</li>
+<li>Lean: <strong>modules</strong></li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="history">History</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>
+There is only one way to do it
+</p></blockquote>
+
+<ul>
+<li>Created by Dutch programmer <strong>Guido van Rossum</strong>, 1991</li>
+<li>Provided administrative scripting for the Amoeba distributed OS.</li>
+<li>Declared <em>Dictator for Life</em> by legions of followers.</li>
+<li>Syntax from <code>C</code></li>
+<li><code>lambda</code>, <code>reduce</code>, <code>filter</code>, and <code>map</code>
+<ul>
+<li>a <code>Lisp</code> hacker who missed them</li>
+</ul></li>
+<li><code>Modula-3</code> inspired keyword arguments and <code>imports</code></li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="what-can-you-do-with-python">What can you do with Python?</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Scripting lanugage
+<ul>
+<li>os support</li>
+<li>glue existing applications</li>
+</ul></li>
+<li>Scientific abstraction
+<ul>
+<li>Use highly optimized C and Fortran libraies</li>
+<li>Intel MKL, HDF5, Blas, Lapack, MPI, Cuda</li>
+</ul></li>
+<li>Data Analysis</li>
+<li>Visualization</li>
+<li>Scrape websites</li>
+<li>Build websites</li>
+<li>Anything!</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="performance">Performance</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote>
+<p>
+The greatest performance improvement comes from going to the working state from the non-working state
+</p>
+</blockquote>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Minimal time required to develop code</li>
+<li>Rapid protoytping</li>
+<li>Interpreted and dynamically typed means it's slower
+<ul>
+<li>Use optimized libraries: e.g. <a href="https://http://www.numpy.org"> numpy </a>, <a href="https://http://scipy.org"> scipy </a></li>
+<li>Find the bottleneck and write it in C/C++/Fortran: e.g. <a href="http://www.scipy.org/F2py"> f2py</a>, <a href="http://docs.cython.org/">cython</a></li>
+<li>Just-in-time: e.g. <a href="http://numba.pydata.org/">numba</a></li>
+</ul></li>
+<li>Implementing the built-in Python modules would require some advanced programming skills in other languages</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="advantages">Advantages</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Interpretive</li>
+<li>Named function arguments</li>
+<li>Heterogeneous data structures
+<ul>
+<li>dictionary</li>
+<li>lists</li>
+</ul></li>
+<li>No memory management</li>
+<li>Print structures</li>
+<li>Packages: large community of support</li>
+<li>Modular: great for larger projects (modules)</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="modules-for-data-analysis">Modules for Data Analysis</h2>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="col2">
+Base
+<ul>
+<li>
+<a href="http://ipython.org">ipython</a>: interactive shell
+</li>
+<li>
+<a href="https://http://www.numpy.org"> numpy </a>: array and matrix library
+</li>
+<li>
+<a href="https://http://scipy.org"> scipy </a>: scientific libraries
+</li>
+<li>
+<a href="http://matplotlib.sourceforge.net/">matplotlib </a>: visualization
+</li>
+<li>
+<a href="http://pandas.pydata.org/">pandas </a>: data frames
+</li>
+</ul>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="col2">
+Additional
+<ul>
+
+<li> 
+<a href="http://docs.python-requests.org/en/latest/">Requests</a>: data from the web
+</li>
+<li> 
+<a href="http://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>: parse web pages
+</li>
+<li> 
+<a href="http://www.pytables.org/moin">pytables </a>: fast, binary files
+</li>
+<li> 
+<a href="http://docs.python.org/2/library/sqlite3.html">sqlite3</a>: binding for sqlite3
+</li>
+<li> 
+<a href="http://spark.incubator.apache.org/">spark</a>: in-memory MapReduce
+</li>
+<li> 
+<a href="http://discoproject.org/">disco</a>: MapReduce
+</li>
+
+</ul>
+</div>
+
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="modules-for-high-performance-computing">Modules for High Performance Computing</h2>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><a href="http://ipython.org/ipython-doc/dev/parallel/">ipython parallel</a>: Interactive MPI, direct, and load balanced</li>
+<li><a href="http://mpi4py.scipy.org/">mpi4py </a>: MPI Bindings</li>
+<li><a href="http://docs.cython.org/src/userguide/parallelism.html">cython.parallel </a>: OpenMP</li>
+<li><a href="http://docs.python.org/2/library/multiprocessing.html">multiprocessing</a>: Quick parallel tasks</li>
+<li><a href="http://mathema.tician.de/software/pycuda">pycuda</a>: GPU</li>
+<li><a href="https://store.continuum.io/cshop/accelerate/">Accelerate</a>: GPU</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="python-environments">Python environments</h2>
+<p>The standard interpreter for python is called <a href="http://en.wikipedia.org/wiki/CPython">CPython</a>.</p>
+<p>Several environments:</p>
+<ul>
+<li>Python interpreter
+<ul>
+<li>script</li>
+<li>interactive</li>
+</ul></li>
+<li>IPython <a href="http://ipython.org/index.html">interactive shell</a></li>
+<li><a href="https://www.enthought.com/products/canopy/">CANOPY</a>: a Python IDE</li>
+<li>IPython <a href="http://ipython.org/notebook.html">notebook</a></li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="python-interpreter">Python interpreter</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote>
+<p>
+We wanted users to be able to begin in an interactive environment, where they did not consciously think of themselves as programming. Then as their needs became clearer and their sophistication increased, they should be able to slide gradually into programming, when the language and system aspects would become more important.
+</p> <p>
+John Chambers (from Roger Peng's coursera course)
+</p>
+</blockquote> 
+
+<p><img src="img/script.png"> <img src="img/python-terminal.png"></p>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="ipython-interactive-shell">IPython interactive shell</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="img/ipython-terminal.png"></p>
+<ul>
+<li>Explore-execute vs. Edit-run</li>
+<li>OS support</li>
+<li>Tab completion</li>
+<li>Introspection</li>
+<li>Execute from clipboard</li>
+<li>Keyboard shortcuts</li>
+<li>Command history</li>
+<li>Magic commands</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="canopy">CANOPY</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="img/canopy.png"></p>
+<ul>
+<li>Runs same versions on Windows, Mac, Linux</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="notebook">Notebook</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="img/notebook.png"></p>
+<ul>
+<li>Python from a browser (or CANOPY)</li>
+</ul>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="interative-workflow">Interative Workflow</h3>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Write code using your text editor:
+<ul>
+<li>Linux <a href="https://projects.gnome.org/gedit/">gedit</a>,</li>
+<li>Mac <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a></li>
+<li>Windows <a href="http://notepad-plus-plus.org/">Notepad ++</a></li>
+<li>All <a href="http://www.sublimetext.com/">Sublime Text</a>, <strong>CANOPY</strong></li>
+</ul></li>
+<li>Run your code (often) in a <strong>IPython</strong> or <strong>python</strong> terminal</li>
+<li>Fix issues</li>
+<li>Repeat</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="versions-of-python">Versions of Python</h2>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Python 2 and Python 3 python --version Python 2.7.3</li>
+<li>Module versions
+<ul>
+<li>ipython</li>
+<li>numpy</li>
+<li>pandas</li>
+<li>matplotlib</li>
+</ul></li>
+</ul>
+</div></section>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/stack.v0.min.js"></script>
+</body>
+</html>
