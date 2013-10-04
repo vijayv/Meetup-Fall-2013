@@ -33,17 +33,18 @@ init_mathjax();
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="dictionary">Dictionary</h2>
+<p>Consider the following dictionarys:</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[3]:
+In&nbsp;[2]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">zipcodes</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">zipcodes</span><span class="p">[</span><span class="s">&#39;80403&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;Boulder, CO&#39;</span>
-<span class="n">zipcodes</span><span class="p">[</span><span class="s">&#39;80123&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;Monument, CO&#39;</span>
-<span class="n">zipcodes</span><span class="p">[</span><span class="s">&#39;80919&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;Colorado Springs, CO&#39;</span>
+<span class="n">zipcodes</span><span class="p">[</span><span class="s">&#39;80403&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;Boulder, CO, Boulder County&#39;</span>
+<span class="n">zipcodes</span><span class="p">[</span><span class="s">&#39;80123&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;Monument, CO El Paso County&#39;</span>
+<span class="n">zipcodes</span><span class="p">[</span><span class="s">&#39;80919&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;Colorado Springs, CO El Paso County&#39;</span>
 </pre></div>
 
 </div>
@@ -69,7 +70,7 @@ In&nbsp;[3]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[4]:
+In&nbsp;[3]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">names</span> <span class="o">=</span> <span class="p">{}</span>
@@ -82,13 +83,17 @@ In&nbsp;[4]:
 </div>
 
 </div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>It's efficient because I can linke a <code>name</code> with <code>zipcode</code> information. Then I can print <code>name</code> information.</p>
+</div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[5]:
+In&nbsp;[4]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">name</span> <span class="o">=</span> <span class="s">&#39;Pat&#39;</span>
+
 <span class="k">print</span> <span class="n">name</span><span class="p">,</span> <span class="s">&#39;lives in&#39;</span><span class="p">,</span> <span class="n">zipcodes</span><span class="p">[</span><span class="n">names</span><span class="p">[</span><span class="n">name</span><span class="p">]]</span>
 </pre></div>
 
@@ -102,7 +107,7 @@ In&nbsp;[5]:
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
 <pre>
-Pat lives in Boulder, CO
+Pat lives in Boulder, CO, Boulder County
 
 </pre>
 </div>
@@ -113,26 +118,20 @@ Pat lives in Boulder, CO
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Add a phone number to the <code>names</code> dictionary.</p>
+<ol style="list-style-type: decimal">
+<li><p>Add a phone number to the <code>names</code> dictionary.</p>
 <p>Your new output should look like:</p>
-<pre><code>Pat is from Boulder, CO :  xxx-xxx-xxxx</code></pre>
+<pre><code>Pat is from Boulder CO, Boulder County :  xxx-xxx-xxxx</code></pre></li>
+</ol>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="copy-script">Copy script</h2>
-<p>Copy one file to another. How many lines of code do you need? Can you do it in one?</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight"><pre>
-</pre></div>
-
-</div>
-</div>
-
+<p>Create a small script that copies one file to another.</p>
+<ul>
+<li>How many lines of code do you need?<br /></li>
+<li>Can you do it in one?</li>
+<li>Is there an advantage?</li>
+</ul>
 </div>
 <script src="js/d3.v3.min.js"></script>
 <script src="js/stack.v0.min.js"></script>
