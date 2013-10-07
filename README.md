@@ -22,9 +22,9 @@ This is a **tentative schedule**. Please check this page for updates or visit th
 | November 7, 2013 | Data cleaning, transforming, merging, and reshaping | |
 | November 14, 2013 | Data aggregation and grouping | |
 | November 21 2013 | Matplotlib | |
-| November 28, 2013 | Time series analysis |
-| December 5, 2013 | MapReduce | |
-| December 12, 2013 | TBD | |
+| November 28, 2013 | *Thanksgiving* |
+| December 5, 2013 | Time series analysis | |
+| December 12, 2013 | MapReduce | |
 
 
 Please visit the [website](http://researchcomputing.github.io/Meetup-Fall-2013/)
