@@ -15,7 +15,7 @@ This is a **tentative schedule**. Please check this page for updates or visit th
 | Date         | Notebook link         | Exercises |
 | :------------- | :------------- | ----| 
 | October 3, 2013 | [Getting started](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_01_getting_started.ipynb), [basics](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_02_basics.ipynb), and [data Structures](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_03_data_structures.ipynb)| [dictionary](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_01_dictionary.ipynb) |
-| October 10, 2013 | Control structures, functions, and file IO | |
+| October 10, 2013 | [Control structures](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_04_control.ipynb), [functions](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_05_functions.ipynb), and [loading data](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_06_reading_writing_data.ipynb)| [copy](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_02_copy.ipynb), [titanic](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_03_titanic.ipynb)  |
 | October 17, 2013 | Numpy introduction |
 | October 24, 2013 | Pandas introduction |
 | October 31, 2013 | Scraping data: web API, parsing HTML and XML | |
