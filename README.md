@@ -2,6 +2,8 @@
 
 Slides, code, and other information relating to the [Fall 2013 Meetups](http://www.meetup.com/University-of-Colorado-Computational-Science-and-Engineering/).
 
+http://bit.ly/1acRfEQ
+
 ###Linux Tutorials
 
 - [Introduction to Linux](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-1.pdf)
