@@ -8,7 +8,7 @@ http://bit.ly/1acRfEQ
 
 - [Introduction to Linux](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-1.pdf)
 - [Data Management in Linux](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-2.pdf)
-- [Shell Programmingg](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-3.pdf)
+- [Shell Programming](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-3.pdf)
 
 ### Python for Data Analysis
 
