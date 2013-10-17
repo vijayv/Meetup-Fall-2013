@@ -3,48 +3,19 @@
 
 # <markdowncell>
 
-# #Exercise Titanic Data
-
-# <markdowncell>
-
-# This is the 892 line training set from [Kaggle](http://www.kaggle.com/c/titanic-gettingStarted/data).
-
-# <codecell>
 
 import os, csv
 data_path = os.path.join('data','titanic.csv')
 print data_path
 
-# <markdowncell>
-
-# ### Read the data
-# 
-# - Consider using the `csv` module
-# - Verify that you get `892` lines
-
-# <codecell>
-
 with open(data_path,'r') as infile:
     reader = csv.reader(infile)
     data = list(reader)
 
-# <codecell>
 
 print len(data)
 
-# <markdowncell>
-
-# ### What percent of the people survied?
-# 
-# - If the first column is a one, they survived.
-# - You *may* need to catch a `ValueError`
-# - Make sure you compare the same types:
-# ```python
-#     d[0] == '1'
-#     int(d[0]) == 1
-# ```
-
-# <codecell>
+### What percent of the people survied?
 
 survived = 0
 for d in data:
@@ -54,23 +25,9 @@ for d in data:
     except ValueError:
         pass
 
-# <codecell>
-
 print survived/float(len(data))*100
 
-# <markdowncell>
-
-# ### Function
-# 
-# Write a function that returns a dictionary of the number of `survived`, `not survived`, and `unknown`.  Here is the example function call:
-# ```python
-# print titanic_function(data)
-# 
-# {'unknown': 1, 'survived': 342, 'not survived': 549}
-# 
-# ```
-
-# <codecell>
+### Function
 
 def titanic_function(data):
     tmp = {}
@@ -84,15 +41,9 @@ def titanic_function(data):
                 tmp['unknown'] = tmp.get('unknown',0) + 1
     return tmp
 
-# <codecell>
-
 print titanic_function(data)
 
-# <markdowncell>
-
-# ###What percent of males survived? Females?
-
-# <codecell>
+###What percent of males survived? Females?
 
 def titanic_function(data):
     M = {}
@@ -115,21 +66,8 @@ def titanic_function(data):
             pass
     return {'male': M, 'female': F}
 
-# <codecell>
-
 val = titanic_function(data)
 
-# <codecell>
-
 print val['male']['survived']/float( val['male']['survived'] + val['male']['not survived'])*100
-
-# <codecell>
-
 print val['female']['survived']/float(val['female']['survived'] + val['female']['not survived'])*100
-
-# <codecell>
-
-
-# <codecell>
-
 

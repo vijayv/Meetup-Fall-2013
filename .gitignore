@@ -1,2 +1,6 @@
 .ipynb_checkpoints
 python/data/iris.txt
+python/data.pickle
+python/data.json
+python/numbers.csv
+python/albert.txt
