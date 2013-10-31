@@ -1,16 +1,16 @@
-##Meetup-Fall-2013
+#Meetup-Fall-2013
 
 Slides, code, and other information relating to the [Fall 2013 Meetups](http://www.meetup.com/University-of-Colorado-Computational-Science-and-Engineering/).
 
-http://bit.ly/1acRfEQ
+[website](http://researchcomputing.github.io/Meetup-Fall-2013/)
 
-###Linux Tutorials
+##Linux Tutorials
 
 - [Introduction to Linux](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-1.pdf)
 - [Data Management in Linux](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-2.pdf)
 - [Shell Programming](http://researchcomputing.github.io/Meetup-Fall-2013/pdfs/Linuxclass-3.pdf)
 
-### Python for Data Analysis
+## Python for Data Analysis
 
 This is a **tentative schedule**. Please check this page for updates or visit the [Meetup](http://www.meetup.com/University-of-Colorado-Computational-Science-and-Engineering/) to see what will be covered prior to each event.  The tutorials will be on Thursdays from 11:30am to 12:15pm, with an optional hands-on session from 12:15 to 1:00pm. Please see the [Meetup](http://www.meetup.com/University-of-Colorado-Computational-Science-and-Engineering/) website for details.
 
@@ -23,7 +23,7 @@ This is a **tentative schedule**. Please check this page for updates or visit th
 | October 10, 2013 | [Control structures](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_04_control.ipynb), [functions](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_05_functions.ipynb), and [loading data](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_06_reading_writing_data.ipynb)| [copy](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_02_copy.ipynb), [titanic](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_03_titanic.ipynb)  |
 | October 17, 2013 | [numpy](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_07_numpy.ipynb) | [frequency](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_05_frequency.ipynb), [classification](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_06_classification_iris.ipynb) |
 | October 24, 2013 | [pandas introduction](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_10_pandas_introduction.ipynb), [adding data](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_11_pandas_adding_data.ipynb) | [exercise](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_07_pandas.ipynb) |
-| October 31, 2013 | [aggregation and grouping](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_12_pandas_groupby.ipynb), [date night](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_13_pandas_movies.ipynb) | |
+| October 31, 2013 | [aggregation and grouping](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_12_pandas_groupby.ipynb), [date night](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_13_pandas_movies.ipynb) | [exercise](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_08_pandas_titanic.ipynb)|
 | November 7, 2013 | [reshaping](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_14_pandas_reshape.ipynb), [transforming](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_15_pandas_transforming.ipynb),  [cleaning](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_16_pandas_cleaning.ipynb)| |
 | November 14, 2013 | Scraping data: web API, parsing HTML and XML | |
 | November 21 2013 | Matplotlib | |
@@ -32,4 +32,10 @@ This is a **tentative schedule**. Please check this page for updates or visit th
 | December 12, 2013 | MapReduce | |
 
 
-Please visit the [website](http://researchcomputing.github.io/Meetup-Fall-2013/)
+
+
+
+
+
+
+
