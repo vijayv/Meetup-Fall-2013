@@ -25,12 +25,12 @@ This is a **tentative schedule**. Please check this page for updates or visit th
 | October 24, 2013 | [pandas introduction](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_10_pandas_introduction.ipynb), [adding data](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_11_pandas_adding_data.ipynb) | [exercise](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_07_pandas.ipynb) |
 | October 31, 2013 | [aggregation and grouping](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_12_pandas_groupby.ipynb), [date night](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_13_pandas_movies.ipynb) | [exercise](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_08_pandas_titanic.ipynb)|
 | November 7, 2013 |  [matplotlib](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_17_matplotlib.ipynb), [style](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_18_matplotlib_style.ipynb), [alternatives](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_19_alternatives.ipynb), [d3](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_20_d3.ipynb)| [hospital comparison](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/exercise_09_matplotlib.ipynb)
-| November 14, 2013 | [reshaping](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_14_pandas_reshape.ipynb), [transforming](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_15_pandas_transforming.ipynb), [cleaning](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_16_pandas_cleaning.ipynb)| |
-| November 21 2013 | Scraping data: web API, parsing HTML and XML | |
+| November 14, 2013 | [reshaping](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_14_pandas_reshape.ipynb), [transforming](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_15_pandas_transforming.ipynb)| |
+| November 21 2013 | *Supercomputing 2013* | |
 | November 28, 2013 | *Thanksgiving* |
-| December 5, 2013 | Time series analysis | |
-| December 12, 2013 | MapReduce | |
-
+| December 5, 2013 | [processing data](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_21_pandas_processing.ipynb), [TRACER example](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_22_pandas_cleaning.ipynb) , [Titanic example](http://nbviewer.ipython.org/urls/raw.github.com/ResearchComputing/Meetup-Fall-2013/master/python/lecture_23_titanic_example.ipynb)  | |
+| December 12, 2013 | Regular Expressions | |
+| December 19, 2013 | Time series | |
 
 
 
