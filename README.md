@@ -33,6 +33,9 @@ This is a **tentative schedule**. Please check this page for updates or visit th
 | December 19, 2013 | Time series | |
 
 
+Thanks everyone for coming!
+
+https://cuboulder.qualtrics.com/SE/?SID=SV_5iiXF1JDsmZ0LVb
 
 
 
